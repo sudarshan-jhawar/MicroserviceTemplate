@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSF.NexGen.UserManagementService", "DSF.NexGen.UserManagementService\DSF.NexGen.UserManagementService.csproj", "{DDF72EBB-866E-4B83-93D8-C2B37DE6CD2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D9F0C8C0-3D18-49EB-A146-A9E1027DBFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSF.NexGen.Shared", "DSF.NexGen.Shared\DSF.NexGen.Shared.csproj", "{310CECA9-7751-4749-93CB-698754ADA43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF72EBB-866E-4B83-93D8-C2B37DE6CD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF72EBB-866E-4B83-93D8-C2B37DE6CD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF72EBB-866E-4B83-93D8-C2B37DE6CD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF72EBB-866E-4B83-93D8-C2B37DE6CD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310CECA9-7751-4749-93CB-698754ADA43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310CECA9-7751-4749-93CB-698754ADA43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310CECA9-7751-4749-93CB-698754ADA43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310CECA9-7751-4749-93CB-698754ADA43A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{310CECA9-7751-4749-93CB-698754ADA43A} = {D9F0C8C0-3D18-49EB-A146-A9E1027DBFDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5B41402-FCB3-42D3-BE1F-B9FA5667659E}
+	EndGlobalSection
+EndGlobal
